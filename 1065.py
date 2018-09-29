@@ -6,3 +6,4 @@ while i < 5:
         cont += 1
     i += 1
 print("{} valores pares".format(cont))
+
