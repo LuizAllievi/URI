@@ -18,3 +18,5 @@ for term in entries:
         print("{} eh primo".format(term[0]))
     else:
         print("{} nao eh primo".format(term[0]))
+
+        
