@@ -9,3 +9,5 @@ elif (((A + B) == C) or ((A + C) == B) or ((B + C) == A)):
     print("{}".format("S"))
 else:
     print("{}".format("N"))
+
+    
