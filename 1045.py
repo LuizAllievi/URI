@@ -1,42 +1,42 @@
 # -*- coding: utf-8 -*-
-a, b, c = map(float, input().split())
+A, B, C = map(float, input().split())
 
-if (a>=b>=c):
-    A = a
-    B = b
-    C = c
-elif (a>=c>=b):
-    A = a
-    B = c
-    C = b
-elif (b>=a>=c):
-    A = b
-    B = a
-    C = c
-elif (b>=c>=a):
-    A = b
-    B = c
-    C = a
-elif (c>=a>=b):
-    A = c
-    B = a
-    C = b
-elif (c>=b>=a):
-    A = c
-    B = b
-    C = a
+if (A>=B>=C):
+    a = A
+    b = B
+    c = C
+elif (A>=C>=B):
+    a = A
+    b = C
+    c = B
+elif (B>=A>=C):
+    a = B
+    b = A
+    c = C
+elif (B>=C>=A):
+    a = B
+    b = C
+    c = A
+elif (C>=A>=B):
+    a = C
+    b = A
+    c = B
+elif (C>=B>=A):
+    a = C
+    b = B
+    c = A
 
 
 # URI Conditions
-if (A >= (B + C)):
+if (a >= (b + c)):
     print("{}".format("NAO FORMA TRIANGULO"))
-elif (A * A == (B * B + C * C)):
+elif (a * a == (b * b + c * c)):
     print("{}".format("TRIANGULO RETANGULO"))
-elif (A * A > (B * B + C * C)):
+elif (a * a > (b * b + c * c)):
     print("{}".format("TRIANGULO OBTUSANGULO"))
-elif (A * A < (B * B + C * C)):
+elif (a * a < (b * b + c * c)):
     print("{}".format("TRIANGULO ACUTANGULO"))
-if (A == B == C):
+if (a == b and b == c):
     print("{}".format("TRIANGULO EQUILATERO"))
-elif ((A == B) or (A == C) or (B == C)):
+elif ((a == b) or (a == c) or (b == c)):
     print("{}".format("TRIANGULO ISOSCELES"))
