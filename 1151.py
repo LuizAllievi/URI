@@ -14,3 +14,4 @@ while i < posicao:
     string += " " + str(n2)
     i += 1
 print("{}".format(string))
+
