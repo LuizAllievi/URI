@@ -6,3 +6,4 @@ while N > 1:
     x = x * N
 
 print("{}".format(x))
+
