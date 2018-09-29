@@ -6,3 +6,4 @@ while i < 7:
     print("{} nota(s) de R$ {},00".format(N // cedulas[i], cedulas[i]))
     N = N % cedulas[i]
     i += 1
+    
