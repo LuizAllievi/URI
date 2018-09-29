@@ -11,3 +11,5 @@ while True:
     partidas.append((p_1, p_2))
 for i in partidas:
     print("{} {}".format(i[0], i[1]))
+
+    
